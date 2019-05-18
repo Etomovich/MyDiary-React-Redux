@@ -1,0 +1,41 @@
+{
+  "name": "my-diary-react-redux",
+  "version": "1.0.0",
+  "description": "This is a simple implementation of a my diary website implemented using React/Redux.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "redux-thunk": "^2.3.0",
+    "redux-promise-middleware": "^6.1.0"
+  },
+  "devDependencies": {
+    "7": "0.0.1",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "react-hot-loader": "^4.8.0",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "uuid": "^3.3.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Etomovich/MyDiary-React-Redux.git"
+  },
+  "keywords": [],
+  "author": "James Etole <etolejames@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Etomovich/MyDiary-React-Redux/issues"
+  },
+  "homepage": "https://github.com/Etomovich/MyDiary-React-Redux#readme"
+}
