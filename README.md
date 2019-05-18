@@ -6,7 +6,7 @@
 
 This is a simple implementation of a my contacts website implemented using React/Redux. It shows how to properly use redux store to manage the various states of your website properly. It also shows the power of Redux as a whole. It also shows how to properly use infinite scroller for your paginated data so as to remove countless of buttons on the screen.
 
-This website has been created using the hosted API from [reques.in](https://reqres.in/) website.
+This website has been created using the hosted API from [reques.in](https://reqres.in/) website. You can find the site [here](https://etomovich-phonebook.herokuapp.com/)
 
 **Development Tools**
 <hr />

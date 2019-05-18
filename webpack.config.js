@@ -8,6 +8,18 @@ module.exports = {
     entry: [
         './src/index'
     ],
+    devServer: {
+        port: 3000,
+        contentBase: './dist',
+        hot: true,
+        filename: 'bundle.js',
+        historyApiFallback: true
+      },
+      output: {
+        path: path.join(__dirname, '/dist'),
+        publicPath: '/',
+        filename: 'bundle.js'
+    },
     module: {
         rules: [
             {
@@ -24,21 +36,9 @@ module.exports = {
         ],
         extensions: ['*', '.js', '.jsx', '.scss'],
     },
-    output: {
-        path: path.join(__dirname, '/dist'),
-        publicPath: '/',
-        filename: 'bundle.js'
-    },
-    devtool: 'cheap-eval-source-map',
-    devServer: {
-      port: 3000,
-      contentBase: './dist',
-      hot: true,
-      historyApiFallback: true
-    },
     plugins: [
         new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.HotModuleReplacementPlugin(),
-        new webpack.NoEmitOnErrorsPlugin()
+        new webpack.NoEmitOnErrorsPlugin(),
     ]
 };
