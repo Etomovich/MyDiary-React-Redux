@@ -1,16 +1,43 @@
-import { ADD_ARTICLE } from "../actions/action-types";
+import {
+    GET_ALL_CONTACTS,
+    UPDATE_CONTACTS,
+    GET_CONTACT,
+    CREATE_CONTACT,
+} from "../actions/action-types";
 
 const initialState = {
-    articles: []
+  contacts: [],
+  contactHasNext: 1,
+  aContact: {},
 };
 
 function rootReducer(state = initialState, action){
-    if (action.type === ADD_ARTICLE){
-        return Object.assign({}, state,{
-            articles: state.articles.concat(action.payload)
-        });
-    }
-    return state;
+  switch (action.type){
+    case GET_ALL_CONTACTS:
+      return {
+        ...state,
+        contacts: action.payload.data,
+        contactHasNext: action.payload.hasNext,
+      };
+    case UPDATE_CONTACTS:
+      return {
+        ...state,
+        contacts: state.contacts.concat(action.payload.data),
+        contactHasNext: action.payload.hasNext,
+      };
+    case GET_CONTACT:
+      return {
+        ...state,
+        aContact: action.payload,
+      };
+    case CREATE_CONTACT:
+      return {
+        ...state,
+        contacts: state.contacts.push(action.payload.data),
+      };
+    default:
+      return state;
+  }
 }
-
-export default rootReducer;
+  
+  export default rootReducer;
