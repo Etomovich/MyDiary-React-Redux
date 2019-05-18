@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
-    "start-prod": "webpack-dev-server --config ./webpack.config.js --mode production"
+    "start-prod": "webpack-dev-server --config ./webpack.config.js --mode production",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "coverage": "jest --coverage --colors"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -18,7 +21,6 @@
     "react-dom": "^16.8.6",
     "react-infinite-scroller": "^1.2.4",
     "react-router": "^5.0.0",
-    "babel-polyfill": "^6.26.0",
     "react-router-dom": "^5.0.0",
     "react-toastify": "^5.1.0",
     "redux": "^4.0.1",
@@ -30,15 +32,24 @@
     "@babel/core": "^7.4.0",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.2",
+    "@babel/polyfill": "^7.0.0-beta.51",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "moxios": "^0.4.0",
+    "redux-mock-store": "^1.5.3",
+    "redux-promise-middleware": "^6.1.0",
     "react-hot-loader": "^4.8.0",
     "react-redux": "^6.0.1",
     "redux": "^4.0.1",
     "uuid": "^3.3.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1"
+    "webpack-dev-server": "^3.2.1",
+    "babel-jest": "^23.4.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^23.4.2"
   },
   "browserslist": [
     ">0.2%",

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1558192111309" clover="3.2.0">
+  <project timestamp="1558192111309" name="All files">
+    <metrics statements="70" coveredstatements="59" conditionals="15" coveredconditionals="11" methods="33" coveredmethods="29" elements="118" coveredelements="99" complexity="0" loc="70" ncloc="70" packages="5" files="12" classes="12">
+      <package name="actions">
+        <metrics statements="23" coveredstatements="12" conditionals="4" coveredconditionals="0" methods="12" coveredmethods="10"/>
+        <file name="AllActons.js" path="/Users/jamesetole/Dev/my_apps/MyDiary-React-Redux/src/actions/AllActons.js">
+          <metrics statements="18" coveredstatements="7" conditionals="4" coveredconditionals="0" methods="12" coveredmethods="10"/>
+          <line num="11" count="4" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="29" count="4" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="44" count="1" type="stmt"/>
+          <line num="47" count="4" type="stmt"/>
+          <line num="50" count="1" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+        </file>
+        <file name="action-types.js" path="/Users/jamesetole/Dev/my_apps/MyDiary-React-Redux/src/actions/action-types.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="5" type="stmt"/>
+          <line num="2" count="5" type="stmt"/>
+          <line num="3" count="5" type="stmt"/>
+          <line num="4" count="5" type="stmt"/>
+        </file>
+        <file name="backendUrls.js" path="/Users/jamesetole/Dev/my_apps/MyDiary-React-Redux/src/actions/backendUrls.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="components">
+        <metrics statements="37" coveredstatements="37" conditionals="4" coveredconditionals="4" methods="19" coveredmethods="17"/>
+        <file name="CreateContact.jsx" path="/Users/jamesetole/Dev/my_apps/MyDiary-React-Redux/src/components/CreateContact.jsx">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+        </file>
+        <file name="EditContact.jsx" path="/Users/jamesetole/Dev/my_apps/MyDiary-React-Redux/src/components/EditContact.jsx">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+        </file>
+        <file name="Footer.jsx" path="/Users/jamesetole/Dev/my_apps/MyDiary-React-Redux/src/components/Footer.jsx">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="1" type="stmt"/>
+        </file>
+        <file name="Header.jsx" path="/Users/jamesetole/Dev/my_apps/MyDiary-React-Redux/src/components/Header.jsx">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="6" count="1" type="stmt"/>
+        </file>
+        <file name="MyContacts.jsx" path="/Users/jamesetole/Dev/my_apps/MyDiary-React-Redux/src/components/MyContacts.jsx">
+          <metrics statements="24" coveredstatements="24" conditionals="4" coveredconditionals="4" methods="12" coveredmethods="10"/>
+          <line num="9" count="5" type="stmt"/>
+          <line num="10" count="5" type="stmt"/>
+          <line num="16" count="5" type="stmt"/>
+          <line num="17" count="5" type="stmt"/>
+          <line num="18" count="5" type="stmt"/>
+          <line num="22" count="7" type="stmt"/>
+          <line num="23" count="7" type="cond" truecount="2" falsecount="0"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="26" count="6" type="stmt"/>
+          <line num="31" count="2" type="stmt"/>
+          <line num="32" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="33" count="1" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="40" count="23" type="stmt"/>
+          <line num="41" count="23" type="stmt"/>
+          <line num="43" count="23" type="stmt"/>
+          <line num="55" count="23" type="stmt"/>
+          <line num="67" count="69" type="stmt"/>
+          <line num="91" count="2" type="stmt"/>
+          <line num="98" count="2" type="stmt"/>
+          <line num="103" count="2" type="stmt"/>
+          <line num="108" count="2" type="stmt"/>
+          <line num="110" count="1" type="stmt"/>
+          <line num="113" count="1" type="stmt"/>
+        </file>
+        <file name="ViewUser.jsx" path="/Users/jamesetole/Dev/my_apps/MyDiary-React-Redux/src/components/ViewUser.jsx">
+          <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="15" count="2" type="stmt"/>
+          <line num="16" count="2" type="stmt"/>
+          <line num="31" count="2" type="stmt"/>
+          <line num="36" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="reducers">
+        <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/Users/jamesetole/Dev/my_apps/MyDiary-React-Redux/src/reducers/index.js">
+          <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+          <line num="8" count="3" type="stmt"/>
+          <line num="15" count="6" type="cond" truecount="4" falsecount="0"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="34" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="routes">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.jsx" path="/Users/jamesetole/Dev/my_apps/MyDiary-React-Redux/src/routes/index.jsx">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="store">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/jamesetole/Dev/my_apps/MyDiary-React-Redux/src/store/index.js">
+          <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
+          <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="8" count="2" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
