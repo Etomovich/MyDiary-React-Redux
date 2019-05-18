@@ -1,1 +1,4 @@
-export const ADD_ARTICLE = "ADD_ARTICLE";
+export const GET_ALL_CONTACTS = "GET_ALL_CONTACTS";
+export const UPDATE_CONTACTS = "UPDATE_CONTACTS";
+export const GET_CONTACT = "GET_CONTACT";
+export const CREATE_CONTACT = "CREATE_CONTACT";

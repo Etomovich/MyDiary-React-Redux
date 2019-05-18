@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import store from './store/index';
-import App from './components/App';
+import Routes from './routes/index';
 const element = (
     <Provider store={store}>
-        <App/>
+        <Routes />
     </Provider>);
 const container = document.getElementById('app');
 
