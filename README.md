@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/Etomovich/MyDiary-React-Redux.svg?branch=master)](https://travis-ci.org/Etomovich/MyDiary-React-Redux)
-[![Coverage Status](https://coveralls.io/repos/github/Etomovich/MyDiary-React-Redux/badge.svg?branch=develop)](https://coveralls.io/github/Etomovich/MyDiary-React-Redux?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/Etomovich/MyDiary-React-Redux/badge.svg?branch=master)](https://coveralls.io/github/Etomovich/MyDiary-React-Redux?branch=master)
 
 **MyContacts-React-Redux**
 <hr />
