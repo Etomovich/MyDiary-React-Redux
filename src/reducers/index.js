@@ -30,14 +30,10 @@ function rootReducer(state = initialState, action){
         ...state,
         aContact: action.payload,
       };
-    case CREATE_CONTACT:
-      return {
-        ...state,
-        contacts: state.contacts.push(action.payload.data),
-      };
     default:
       return state;
   }
 }
   
   export default rootReducer;
+  
